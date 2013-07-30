@@ -1,0 +1,42 @@
+Feedback MMT Topic 1:
+
+
+
+Uitwerking idee:
+-----------------
+
+probleem: Recommandation Engine - items : songs
+
+originaliteit en volledigheid vd oplossing: gebaseerd of gemotiveerd door een bestaande app - er is duidelijk over design en GUI nagedacht. Ook aan het verzamelen van data en het taggen van data werd aandacht besteed.
+
+gebruik algoritmen:
+
+wat het achterliggende algo betreft, begrijp ik dat je afstandsmaat gebaseerd is op het aantal gelijke tags die je kan vinden tussen de tags van je bestaande afspeellijst (of het huidige nummer) en de tags die verzameld worden bij 1 artiest. De beschrijving van je algo mag echter iets duidelijker gebeuren. Zal zeker mondeling toegelicht moeten worden tijdens de verdediging. Kan je dit bijvoorbeeld linken aan de theorie die in de workshop aan bod kwam?
+
+
+
+verslag + referenties: 
+
+opbouw verslag is ok, maar veel schrijf/taalfouten !!! Laat je verslag desnoods eens nalezen door iemand.
+
+
+
+
+code
+-----
+Stijl: netjes
+werking:
+prima!
+Als ik het goed begrijp gaat het programma tijdens het afspelen van een nummer, gelijkaardige nummers voorstellen
+en is de tagging op de meegegeven nummers manueel gebeurd.
+
+
+
+
+Algemeen
+---------
+
+Zeker een originele invulling van de opdracht met werkende versie en prima GUI !
+
+
+

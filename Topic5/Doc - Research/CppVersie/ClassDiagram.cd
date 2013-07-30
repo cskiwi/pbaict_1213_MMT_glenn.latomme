@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Goal" Collapsed="true">
+    <Position X="38.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAQASBggAAAAAAgAAAEAIAAAAAAIAgAAIAAA=</HashCode>
+      <FileName>Goal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParamLoader" Collapsed="true">
+    <Position X="42.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>6AgJgAIBvQQJAAEwEBOAgAACgAAB0CcAQKCHgAIAIEg=</HashCode>
+      <FileName>ParamLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoccerPitch" Collapsed="true">
+    <Position X="40.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAIgggEAQAAAFAEAFAJgAAAyEAAAgBAAAwKAAIY=</HashCode>
+      <FileName>SoccerPitch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoccerTeam" Collapsed="true">
+    <Position X="42.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAcIhAQIBgwNjUAIh0BkAAwAQCAEEACAQBBGpggAFAI=</HashCode>
+      <FileName>SoccerTeam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SteeringBehaviors" Collapsed="true">
+    <Position X="37" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBASCCABQCAhKQISCAgKImAwACYgAABEEEkFAQAJBII=</HashCode>
+      <FileName>SteeringBehaviors.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SupportSpotCalculator" Collapsed="true">
+    <Position X="38.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAQIAAAAABAAAAAAAAAAAECAAABBAgAAAAAA=</HashCode>
+      <FileName>SupportSpotCalculator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalPlayerState">
+    <Position X="21.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAZACAAAAAAAA=</HashCode>
+      <FileName>FieldPlayerStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChaseBall" Collapsed="true">
+    <Position X="25.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAABAAAEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>FieldPlayerStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dribble" Collapsed="true">
+    <Position X="19.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYAAAAAAAAAAAAEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>FieldPlayerStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReturnToHomeRegion" Collapsed="true">
+    <Position X="25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>FieldPlayerStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wait" Collapsed="true">
+    <Position X="25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAQEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>FieldPlayerStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KickBall" Collapsed="true">
+    <Position X="25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>FieldPlayerStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReceiveBall" Collapsed="true">
+    <Position X="21.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>FieldPlayerStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SupportAttacker">
+    <Position X="23.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAQAAAAAAAAAAAAEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>FieldPlayerStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalKeeperState" Collapsed="true">
+    <Position X="19.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAYACAAIAAAAA=</HashCode>
+      <FileName>GoalKeeperStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TendGoal" Collapsed="true">
+    <Position X="19.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAYAiAAAAAAAA=</HashCode>
+      <FileName>GoalKeeperStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterceptBall" Collapsed="true">
+    <Position X="19.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAABAAAAAAAAEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>GoalKeeperStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReturnHome" Collapsed="true">
+    <Position X="25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAEAAAAEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>GoalKeeperStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PutBallBackInPlay" Collapsed="true">
+    <Position X="23.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAEAAEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>GoalKeeperStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State&lt;entity_type&gt;">
+    <Position X="22.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAIACAABAAAAA=</HashCode>
+      <FileName>FSM\State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine&lt;entity_type&gt;" Collapsed="true">
+    <Position X="44" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQEIBAgIAJBAAAAAAAASAAAAAgIAABCAAAgAAAQAA=</HashCode>
+      <FileName>FSM\StateMachine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Attacking" Collapsed="true">
+    <Position X="19.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAQAAAAAAAAAAAAEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>TeamStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Defending" Collapsed="true">
+    <Position X="19.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAIAAAAAAAEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>TeamStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrepareForKickOff" Collapsed="true">
+    <Position X="25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>TeamStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageDispatcher" Collapsed="true">
+    <Position X="40.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACACAEAAAAAAAAAAAAAAAQQAAgAAAAAQA=</HashCode>
+      <FileName>Messaging\MessageDispatcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseGameEntity">
+    <Position X="5.25" Y="4" Width="3.5" />
+    <NestedTypes>
+      <Enum Name="BaseGameEntity::__unnamed_enum_0011_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Game\BaseGameEntity.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIQIAABGAAAggAAkAEIIAAggQAaAACAAABAUAgkhAgA=</HashCode>
+      <FileName>Game\BaseGameEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityManager" Collapsed="true">
+    <Position X="44" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAABAAAABQBAAAAAAAAAAAAQAAgAAAAQAA=</HashCode>
+      <FileName>Game\EntityManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FieldPlayer">
+    <Position X="16" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAAgAIAAAAAAQAAAAACAgAAAAABAAAAAAIAA=</HashCode>
+      <FileName>FieldPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoalKeeper">
+    <Position X="15.75" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAACgAAAAAAEAAAAAghCAAAIIAABAAAAAAAAI=</HashCode>
+      <FileName>Goalkeeper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovingEntity">
+    <Position X="9.75" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CIgAAAAFIGAQgAAgAAAEAIQBAAAAAAAAAAgAAyCEiAA=</HashCode>
+      <FileName>Game\MovingEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerBase">
+    <Position X="12.75" Y="4" Width="2.25" />
+    <NestedTypes>
+      <Enum Name="PlayerBase::player_role" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PlayerBase.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAMQAQCCECAAAUAoEAUFAgCQEAAAIgQAEEBQADAYANA=</HashCode>
+      <FileName>PlayerBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoccerBall">
+    <Position X="9.75" Y="10.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABQAAABAEAACAAABAAAAAAAACAAiAAAAABAIBAAAgAA=</HashCode>
+      <FileName>SoccerBall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoList&lt;T&gt;">
+    <Position X="16" Y="4" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="AutoList&lt;T&gt;::ObjectList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>misc\autolist.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAEAAAAAAAAAAAAAIgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>misc\autolist.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="C2DMatrix" Collapsed="true">
+    <Position X="37" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="C2DMatrix::Matrix" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>2D\C2DMatrix.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAABBAAAAAAABABIIAAAAEAAEAIAAAEAEAAAAAAA=</HashCode>
+      <FileName>2D\C2DMatrix.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cgdi" Collapsed="true">
+    <Position X="38.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DEUKYCAAQAIAhCzaBDEByAiWhCxBQySYTEawkgCDAAk=</HashCode>
+      <FileName>misc\Cgdi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSink" Collapsed="true">
+    <Position X="40.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAQAAgAAAAAAI=</HashCode>
+      <FileName>Debug\DebugConsole.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DebugConsole" Collapsed="true">
+    <Position X="42.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIIQAAAAAAKAAAACAAABACgAEAEEgQAgkAAAAAYA=</HashCode>
+      <FileName>Debug\DebugConsole.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FrameCounter" Collapsed="true">
+    <Position X="37" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAIAAAACAABAAAAAQAAAAAAAAAAAgAQgAgAAAAAAA=</HashCode>
+      <FileName>misc\FrameCounter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrecisionTimer" Collapsed="true">
+    <Position X="44" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBACABEAgqAAACABACJACAABAAYBAAAAAAAAgACgAAA=</HashCode>
+      <FileName>Time\PrecisionTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Region" Collapsed="true">
+    <Position X="37" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAhAAAoAABAAAUAEFAAAAIAAAASBqBiAAIAAA=</HashCode>
+      <FileName>Game\Region.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Regulator" Collapsed="true">
+    <Position X="38.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAACAAAAAAAAIAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Time\Regulator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wall2D" Collapsed="true">
+    <Position X="40.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAYAAAAAEAAAAAAAAAAACAgAAAIAAAAABCwAQEIAAA=</HashCode>
+      <FileName>2D\Wall2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Telegram" Collapsed="true">
+    <Position X="37" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAggAAAAAAABAAAAAAAAAAAAEBAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Messaging\Telegram.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vector2D">
+    <Position X="38.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAFBAIEAACAQlBCQAAAABAAABgAAAAAAA=</HashCode>
+      <FileName>2D\Vector2D.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="MessageType" Collapsed="true">
+    <Position X="38.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAggAABBAAAIAA=</HashCode>
+      <FileName>SoccerMessages.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="span_type" Collapsed="true">
+    <Position X="40.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAg=</HashCode>
+      <FileName>2D\geometry.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0005_1" Collapsed="true">
+    <Position X="37" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>2D\Vector2D.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

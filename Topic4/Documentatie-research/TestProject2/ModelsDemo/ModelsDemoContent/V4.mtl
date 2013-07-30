@@ -1,0 +1,42 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 02.04.2013 16:06:51
+
+newmtl Grass
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.588000 0.588000 0.588000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka G:\Projects\School\pbaict_1213_MMT_glenn.latomme\Topic4\Code-sources\Models\field\tex\voetbalveldV3.tga
+	map_Kd G:\Projects\School\pbaict_1213_MMT_glenn.latomme\Topic4\Code-sources\Models\field\tex\voetbalveldV3.tga
+	map_bump G:\Projects\School\pbaict_1213_MMT_glenn.latomme\Topic4\Code-sources\Models\field\tex\voetbalveldV3-bump.tga
+	bump G:\Projects\School\pbaict_1213_MMT_glenn.latomme\Topic4\Code-sources\Models\field\tex\voetbalveldV3-bump.tga
+
+newmtl FlagMat
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.564706 0.043137 0.043137
+	Kd 0.564706 0.043137 0.043137
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+
+newmtl FlagPoleMat
+	Ns 10.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.290196 0.290196 0.290196
+	Kd 0.290196 0.290196 0.290196
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000

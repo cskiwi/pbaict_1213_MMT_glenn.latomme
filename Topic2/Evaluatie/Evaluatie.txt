@@ -1,0 +1,36 @@
+Student: glenn.latomme
+Leerkracht: Tim Vermeulen
+-----------------------
+-  Uitwerking idee:   -
+-----------------------
+* probleem: WAV scrambler
+
+* originaliteit en volledigheid vd oplossing:
+-Welke filtering is nu juist mogelijk met je programma. Leg dit uit in je verslag en beschrijf wat voor effect dit op je data en je geluid heeft. 
+-Geef eerst een overzicht van de werking van je programma: inlezen, fourier, filter, fourier, wegschrijven en leg dit dan stap voor stap uit. (De meeste delen staan in je verslag, er mist enkel nog wat structuur en overzicht).
+
+* gebruik algoritmen:
+-goed
+
+* verslag + referenties:
+-Wees consequent in je taal. Als je je tekst in het nederlands schrijft neem dan ook nederlandstalige titels voor je onderdelen. Bepaalde termen die moeilijk te vertalen zijn of een andere betekenis krijgen door te vertalen kan je natuurlijk in het engels laten.
+-Als je figuren niet zelf gemaakt hebt, verwijs dan naar waar je deze gevonden hebt. Als je figuren met behulp van een bepaald programma gemaakt hebt (niet paint, photoshop, ...) verwijs dan naar dat programma. 
+-Lees je verslag na! Controleer zinsconstructies, typfouten en spellingsfouten. 
+
+-----------------------
+-  code:              -
+-----------------------
+* Stijl
+-Een programma is geen website, het heeeft dus geen back-end en front-end. Je kan je programma wel in andere delen opsplitsen: GUI, datalaag, logica, ...
+
+* werking
+-Je resultaat is goed
+-een goed idee om de waarden in een grafiek weer te geven, maar vermeld bij je grafieken nog volgende basis elementen: betekenis x-as en y-as, schaal. Zonder deze gegevens hebben je grafieken geen betekenis. het exporteren van je grafieken lukt ook niet. Er bestaan eenvoudige bibliotheken om mooie grafieken te tekenen. 
+-Waarom is de grootte van inputbestanden beperkt? Kan dit niet opgelost worden?
+
+* documentatie
+ok
+
+-----------------------
+-  Algemeen:          -
+-----------------------

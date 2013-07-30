@@ -1,0 +1,19 @@
+﻿<Window x:Name="AddFileToPlaylist" x:Class="REMPv2.AddFilesToPlaylist"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add file to playlist" Height="350" Width="500" ResizeMode="NoResize" WindowStyle="ToolWindow" Topmost="True">
+    <Canvas Name="Canvas">
+        <Grid Width="{Binding ActualWidth, ElementName=Canvas}" Height="{Binding ActualHeight, ElementName=Canvas}">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition Height="40" />
+            </Grid.RowDefinitions>
+            <ListBox x:Name="SongSelection" Margin="158,26,12,0" MouseDoubleClick="SongSelection_MouseDoubleClick" SelectionMode="Extended" />
+            <ListBox x:Name="FolderSecltion" Margin="10,26,339,0" SelectionChanged="FolderSecltion_SelectionChanged" />
+            <Label Content="Folder" HorizontalAlignment="Left" Height="26" Margin="10,0,0,0" VerticalAlignment="Top" Width="143" />
+            <Label Content="Songs" HorizontalAlignment="Left" Margin="158,0,0,0" VerticalAlignment="Top" Width="322" Height="26" />
+            <Button Grid.Row="1" Content="Add Folder"  Click="AddFolder" HorizontalAlignment="Left" Margin="10,5,0,10" Width="80" />
+            <Button Grid.Row="1" Content="Add songs" Margin="0,5,10,10" Click="AddSongToPlaylist" HorizontalAlignment="Right" Width="80" />
+        </Grid>
+    </Canvas>
+</Window>

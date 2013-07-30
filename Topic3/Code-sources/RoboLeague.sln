@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboLeague", "RoboLeague\RoboLeague.csproj", "{C7028972-C6E6-407B-9EE2-C15A3E470326}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EngineV3", "EngineV3\EngineV3.csproj", "{2A5B0DDF-8410-4E2D-BC80-0870610E5EA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EngineV4", "EngineV4\EngineV4.csproj", "{02D5C7BD-B106-4E85-8276-E377EFF92C3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7028972-C6E6-407B-9EE2-C15A3E470326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7028972-C6E6-407B-9EE2-C15A3E470326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7028972-C6E6-407B-9EE2-C15A3E470326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7028972-C6E6-407B-9EE2-C15A3E470326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A5B0DDF-8410-4E2D-BC80-0870610E5EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5B0DDF-8410-4E2D-BC80-0870610E5EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5B0DDF-8410-4E2D-BC80-0870610E5EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5B0DDF-8410-4E2D-BC80-0870610E5EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D5C7BD-B106-4E85-8276-E377EFF92C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D5C7BD-B106-4E85-8276-E377EFF92C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D5C7BD-B106-4E85-8276-E377EFF92C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D5C7BD-B106-4E85-8276-E377EFF92C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
