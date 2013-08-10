@@ -27,7 +27,9 @@ namespace GameAI {
             DrawCanvas.Children.Clear();
             foreach (Shape shape in _rrt.GetTreeShapes()) DrawCanvas.Children.Add(shape);
             Time.Content = _rrt.LastGenerationTime;
-            Path.Content = _rrt.FinalPath.Count;
+            var length = RrtGenerator.CalculateDistance(_rrt.FinalPath[0].Location, _rrt.FinalPath[_rrt.FinalPath.Count - 1].Location);
+            Path.Content = _rrt.FinalPath.Count + " length in px: " + length;
+            Tree.Content = _rrt.TotalBranches();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e) {
