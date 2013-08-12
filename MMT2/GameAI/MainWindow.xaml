@@ -5,15 +5,29 @@
         MouseRightButtonDown="DrawCanvas_MouseRightButtonDown">
 
     <Grid>
-        <Canvas x:Name="DrawCanvas" HorizontalAlignment="Center" Height="707" VerticalAlignment="Center" Width="972" Margin="10,53,10,10" Grid.ColumnSpan="2" />
+        <Canvas x:Name="DrawCanvas" HorizontalAlignment="Center" Height="707" VerticalAlignment="Center" Width="972"
+                Margin="10,53,10,10" Grid.ColumnSpan="2" />
 
-        <Button Content="Generate" HorizontalAlignment="Left" Margin="10,22,0,0" VerticalAlignment="Top" Width="75"
+        <Button Content="Generate" HorizontalAlignment="Left" Margin="10,9,0,0" VerticalAlignment="Top" Width="91"
                 Click="Button_Click" />
-        <Label Content="Time elapsed: " HorizontalAlignment="Left" Margin="90,22,0,0" VerticalAlignment="Top" />
-        <Label x:Name="Time" Content="" HorizontalAlignment="Left" Margin="176,22,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.467,0.5" Width="150" />
-        <Label Content="Path length: " HorizontalAlignment="Left" Margin="331,22,0,0" VerticalAlignment="Top" />
-        <Label x:Name="Path" Content="" HorizontalAlignment="Left" Margin="408,22,0,0" VerticalAlignment="Top" Width="200"/>
-        <Label Content="Tree length: " HorizontalAlignment="Left" Margin="613,22,0,0" VerticalAlignment="Top" />
-        <Label x:Name="Tree" Content="" HorizontalAlignment="Left" Margin="690,22,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Time elapsed: " HorizontalAlignment="Left" Margin="333,21,0,0" VerticalAlignment="Top" />
+        <Label x:Name="Time" Content="" HorizontalAlignment="Left" Margin="424,21,0,0" VerticalAlignment="Top"
+               Width="129" />
+        <Label Content="Path length: " HorizontalAlignment="Left" Margin="558,21,0,0" VerticalAlignment="Top" />
+        <Label x:Name="Path" Content="" HorizontalAlignment="Left" Margin="635,21,0,0" VerticalAlignment="Top"
+               Width="200" />
+        <Label Content="Tree length: " HorizontalAlignment="Left" Margin="841,21,0,0" VerticalAlignment="Top" />
+        <Label x:Name="Tree" HorizontalAlignment="Left" Margin="917,21,0,0" VerticalAlignment="Top" Width="65" />
+        <ListBox VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="106,10,0,0" Background="{x:Null}" BorderBrush="{x:Null}"
+                 Foreground="{x:Null}" Height="48" Width="75">
+            <RadioButton x:Name="StartButton" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top"
+                         IsChecked="True" />
+            <RadioButton x:Name="TargetButton" Content="Target" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        </ListBox>
+        <Button Content="Clear obstacles" HorizontalAlignment="Left" Margin="10,36,0,0"
+                VerticalAlignment="Top" Width="91"
+                Click="ButtonClear_Click" />
+        <Slider x:Name="RadiusSlider" HorizontalAlignment="Left" Margin="181,31,0,0" VerticalAlignment="Top" Width="147" Maximum="100" Minimum="10" AutoToolTipPlacement="TopLeft"/>
+        <Label Content="Obstacle radius" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="181,7,0,0" VerticalAlignment="Top" Width="140"/>
     </Grid>
 </Window>

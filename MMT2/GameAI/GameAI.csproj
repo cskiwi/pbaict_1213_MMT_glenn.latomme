@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="RRT\Obstacle.cs" />
     <Compile Include="RRT\RrtGenerator.cs" />
     <Compile Include="RRT\RRTBranch.cs" />
     <Page Include="MainWindow.xaml">
