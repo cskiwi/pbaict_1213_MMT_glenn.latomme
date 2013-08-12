@@ -12,11 +12,11 @@
                 Click="Button_Click" />
         <Label Content="Time elapsed: " HorizontalAlignment="Left" Margin="333,21,0,0" VerticalAlignment="Top" />
         <Label x:Name="Time" Content="" HorizontalAlignment="Left" Margin="424,21,0,0" VerticalAlignment="Top"
-               Width="129" />
-        <Label Content="Path length: " HorizontalAlignment="Left" Margin="558,21,0,0" VerticalAlignment="Top" />
-        <Label x:Name="Path" Content="" HorizontalAlignment="Left" Margin="635,21,0,0" VerticalAlignment="Top"
-               Width="200" />
-        <Label Content="Tree length: " HorizontalAlignment="Left" Margin="841,21,0,0" VerticalAlignment="Top" />
+               Width="110" />
+        <Label Content="Path length: " HorizontalAlignment="Left" Margin="539,21,0,0" VerticalAlignment="Top" />
+        <Label x:Name="Path" Content="" HorizontalAlignment="Left" Margin="609,21,0,0" VerticalAlignment="Top"
+               Width="227" />
+        <Label Content="Tree length: " HorizontalAlignment="Left" Margin="836,21,0,0" VerticalAlignment="Top" />
         <Label x:Name="Tree" HorizontalAlignment="Left" Margin="917,21,0,0" VerticalAlignment="Top" Width="65" />
         <ListBox VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="106,10,0,0" Background="{x:Null}" BorderBrush="{x:Null}"
                  Foreground="{x:Null}" Height="48" Width="75">

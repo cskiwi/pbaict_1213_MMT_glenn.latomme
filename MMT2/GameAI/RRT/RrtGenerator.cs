@@ -190,6 +190,7 @@ namespace GameAI.RRT {
                         Start = new Point(_random.Next(0, _width), _random.Next(0, _height));
                 }
             }
+
             _rrtTree.Add(new RrtBranch(Start, 0));
             GenerateTree();
         }

@@ -14,16 +14,14 @@ namespace GameAI {
 
         public MainWindow() {
             InitializeComponent();
-            _rrt = new RrtGenerator((int) DrawCanvas.Height, (int) DrawCanvas.Width) {
-                // Start = new Point(1, 1), 
-                //Target = new Point((int) DrawCanvas.Height - 1, (int) DrawCanvas.Width - 1)
-            };
+            _rrt = new RrtGenerator((int) DrawCanvas.Height, (int) DrawCanvas.Width) {};
 
             _obstacles = new List<Obstacle>();
 
             // if start an target is setted, set to false, false
-            _rrt.CalculateRrt(true, true, _obstacles);
             RrtBranch.BranchLength = 25;
+
+            _rrt.CalculateRrt(true, true, _obstacles);
             UpdateDrawing();
         }
 
@@ -38,7 +36,7 @@ namespace GameAI {
             double length = 0;
             if (_rrt.FinalPath.Count > 0)
                 length = RrtGenerator.CalculateDistance(_rrt.FinalPath[0].Location, _rrt.FinalPath[_rrt.FinalPath.Count - 1].Location);
-            Path.Content = _rrt.FinalPath.Count + " length in px: " + length;
+            Path.Content = _rrt.FinalPath.Count + "      length in px: " + length;
             Tree.Content = _rrt.TotalBranches();
         }
 
@@ -68,7 +66,7 @@ namespace GameAI {
             Point click = e.GetPosition(DrawCanvas);
             // check if click is in canvas
             if (!(click.X > 0) || !(click.Y > 0) || !(click.X < DrawCanvas.Width) || !(click.Y < DrawCanvas.Height)) return;
-            _obstacles.Add(new Obstacle(click, (int)RadiusSlider.Value));
+            _obstacles.Add(new Obstacle(click, (int) RadiusSlider.Value));
 
             _rrt.CalculateRrt(false, false, _obstacles);
             UpdateDrawing();
